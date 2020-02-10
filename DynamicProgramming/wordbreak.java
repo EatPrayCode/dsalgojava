@@ -68,25 +68,25 @@ class WordBreakProblem
 	public static void main(String[] args)
 	{
 		// List of Strings to represent dictionary
-		// List<String> dict = Arrays.asList("apple", "pen", "applepen", "pine", "pineapple");
-
-		// // input String
-		// String str = "pineapplepenapple";
-
-        // wordBreak(dict, str, "");
-        
-        List<String> dict = Arrays.asList("this", "th", "is", "famous",
-									"Word", "break", "b", "r", "e", "a", "k",
-									"br", "bre", "brea", "ak", "problem");
+		List<String> dict = Arrays.asList("apple", "pen", "applepen", "pine", "pineapple");
 
 		// input String
-		String str = "Wordbreakproblem";
+		String str = "pineapplepenapple";
 
-		if (wordBreakBool(dict, str)) {
-			System.out.print("String can be segmented");
-		} else {
-			System.out.print("String can't be segmented");
-        }
+        wordBreak(dict, str, "");
+        
+        // List<String> dict = Arrays.asList("this", "th", "is", "famous",
+		// 							"Word", "break", "b", "r", "e", "a", "k",
+		// 							"br", "bre", "brea", "ak", "problem");
+
+		// input String
+		// String str = "Wordbreakproblem";
+
+		// if (wordBreakBool(dict, str)) {
+		// 	System.out.print("String can be segmented");
+		// } else {
+		// 	System.out.print("String can't be segmented");
+        // }
         
 	}
 }
