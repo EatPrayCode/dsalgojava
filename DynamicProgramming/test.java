@@ -1,46 +1,26 @@
 package DynamicProgramming;
 
+import java.util.ArrayList;
+import java.util.Set;
+
 public class test {
 
-    public static int N = 8;
+    public static void printPerm(String str, String prefix) {
 
-    public static boolean isSafe(int sol[][], int x, int y) {
-
-        return false;
-    }
-
-    public static void solveKT() {
-
-        int sol[][] = new int[8][8];
-
-        for (int i = 0; i < N; i++) {
-            for (int j = 0; j < N; j++) {
-                sol[i][j] = -1;
-            }
+        if (str.length() == 0) {
+            System.out.println(prefix);
         }
-        printSol(sol);
 
-        sol[0][0] = 0;
-
-
-    }
-
-    public static boolean solveKTUtil() {
-
-        return false;
-    }
-
-    public static void printSol(int sol[][]) {
-        for (int i = 0; i < N; i++) {
-            for (int j = 0; j < N; j++) {
-                System.out.print(sol[i][j] + " ");
-            }
-            System.out.println();
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+            String ros = str.substring(0, i) + str.substring(i + 1);;
+            printPerm(ros, prefix + ch);
         }
+
     }
 
     public static void main(String args[]) {
-        solveKT();
+        printPerm("geek", "");
     }
 
 }
