@@ -1,7 +1,7 @@
 // https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/
 // https://medium.com/@fabianterh/how-to-solve-the-knapsack-problem-with-dynamic-programming-eb88c706d3cf
+// https://leetcode.com/problems/house-robber/
 
-package DynamicProgramming;
 
 public class CutRod {
 

@@ -1,7 +1,5 @@
 // https://leetcode.com/problems/shortest-palindrome/
 
-package DynamicProgramming;
-
 public class shortestpalindrome {
 
     boolean isPalin(char str[], int st, int end) {

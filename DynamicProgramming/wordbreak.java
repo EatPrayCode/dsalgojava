@@ -1,7 +1,5 @@
 // https://www.geeksforgeeks.org/word-break-problem-dp-32/
 
-package DynamicProgramming;
-
 import java.util.Arrays;
 import java.util.List;
 

@@ -1,7 +1,5 @@
 // https://www.techiedelight.com/Tags/lcs/
 
-package DynamicProgramming;
-
 /* A Naive recursive implementation of LCS problem in java*/
 public class LongestCommonSubsequence 
 { 
